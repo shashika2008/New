@@ -1,16 +1,24 @@
+# Lite Xd – Bot Base Script
+
+**Repository:** [https://github.com/XdKing2/LITE-XD](https://github.com/XdKing2/LITE-XD)
+
+---
+
+## 🤖 What is This?
+
+This is the **bot base script**, created by Malvin King.  
+It serves as a foundation for building bots that handle session IDs and automate sharing links.
+
+The **session ID link** below is provided as a reference and example to use with the bot:
+
+**Session Link Reference:**  
+[https://lite-pair.onrender.com/pair](https://lite-pair.onrender.com/pair)
+
+---
+
+SESSION_ID REPO BASE
+https://github.com/XdKing2/malvin-pair 
+
+## 🚀 Getting Started
 
 
-  <h2 style="color:#00ffea;">⚙️ Features</h2>
-  <ul style="color: #eeeeee; font-size: 16px; text-align: left; max-width: 600px;">
-    <li>✅ Auto Status React</li>
-    <li>📥 Media Downloader (YT, FB, IG)</li>
-    <li>🤖 AI Chat Integration</li>
-    <li>📊 Group Tools & Admin Commands</li>
-    <li>🚀 Auto View Boosting Contact List</li>
-  </ul>
-
-  <hr style="margin: 40px 0; border: 1px dashed #00ffea;" />
-
-  <p style="font-size: 14px; color:#888888;">Made with 💙 by <strong>Malvin King</strong> | 🇿🇼  Zimbabwe</p>
-
-</div>

@@ -1,49 +1,58 @@
 {
-  "name": "MALU XD",
-  "description": "Powerful WhatsApp bot made by Malvin King",
-  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
-  "keywords": ["bot"],
+  "name": "LITE-XD",
+  "description": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
+  "logo": "https://files.catbox.moe/qumhu4.jpg",
+  "keywords": ["MALVIN-XD","LITE-XD"],
   "success_url": "/",
 
+    "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put your session-id here.",
-      "required": true
+      "description": "Must Start with 'lite~'",
+      "required": true,
+      "value": ""
     },
-    "OWNER_NUM": {
-      "description": "Your WhatsApp number including country code (e.g., 263XXXXXXXX).",
-      "required": true
-    },
+      "BOT_NAME": {
+        "description": "write here your bot name.",
+        "required": true,
+        "value": "ʟɪᴛᴇ-xᴅ"      
+    },  
+    "MODE": {
+      "description": "Set private/public/inbox/groups",
+      "required": false,
+      "value": "public"
+     },
+   
     "PREFIX": {
-      "description": "Command prefix (default: .)",
-      "required": false
+      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
+      "required": true,
+      "value": "."
     },
-    "AUTO_READ_STATUS": {
-      "description": "Set to true to enable auto-read of WhatsApp statuses.",
-      "required": false
+    
+    "OWNER_NAME": {
+      "description": "Put Owner Name Here",
+      "required": true,
+      "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
     },
-    "AUTO_REACT_STATUS": {
-      "description": "Set to true to enable auto-reaction to statuses.",
-      "required": false
+    "OWNER_NUMBER": {
+      "description": "Put only one Owner Number Here",
+      "required": true,
+      "value": "263780166288"
     },
-    "AUTO_STATUS_LIKE": {
-      "description": "Set to true to enable auto-like for statuses (if supported).",
-      "required": false
-    },
-    "AUTO_RECORDING": {
-      "description": "Set to true to show recording presence when typing.",
-      "required": false
-    },
-    "Mode": {
-      "description": "Set bot mode: public / private / groups / inbox",
-      "required": true
+    
+    "PRESENCE": {
+      "description": "Put online/typing/recording/unavailable",
+      "required": true,
+      "value": "online"
     }
-  },
 
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-    }
-  ],
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
   "stack": "heroku-24"
 }
+  
